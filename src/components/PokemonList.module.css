@@ -1,0 +1,8 @@
+.pokemons {
+    box-shadow: 0px 5px 5px rgba(151, 150, 150, 0.1);
+    margin: 24px auto;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 12px 36px;
+    width: 200px;
+}

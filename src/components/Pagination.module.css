@@ -1,0 +1,17 @@
+.buttonNext,
+.buttonPrev {
+    background-color: rgba(223,129,123,1);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 5px 5px #999;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 4px;
+    padding: 12px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 130px;
+}
