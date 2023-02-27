@@ -54,26 +54,3 @@ function gotoNextPage() {
 }
 
 export default App
-
-
-/*
-import { useQuery } from '@tanstack/react-query'
-let number = Math.floor(Math.random() * 905);
-const API_POKEMON = "https://pokeapi.co/api/v2/pokemon/";
-  const query = useQuery({
-    queryKey: ['page'],
-    queryFn: () => {
-      return fetch(API_POKEMON)
-        .then((response) => response.json())
-        .then((data) => {
-          return data
-        })
-    }
-  })
-   console.log(query)
-
-  if (query.isLoading) {
-    return (
-      <div>Loading...</div>
-    )
-  }*/
